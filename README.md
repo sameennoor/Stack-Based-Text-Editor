@@ -16,23 +16,31 @@ Dynamically manage text lines.
 
 Save and clear the editor content easily.
 ## Features
-Insert new lines of text at specific positions.
+✍️ Insert Text – Add a new line at a specific position.
 
-Delete or replace existing lines.
+❌ Delete Line – Remove a selected line from the editor.
 
-Undo and redo the most recent operations.
+🔁 Replace Text – Modify existing line content.
 
-Save the text document to a file.
+⏪ Undo / ⏩ Redo – Reverse or reapply the last operation.
 
-Clear all editor content and start fresh.
+💾 Save to File – Export text content to a .txt file.
+
+🧹 Clear Editor – Reset all text in the editor.
 ## Methadology
-The program uses a linked list to store text lines dynamically.
+The system uses two main data structures for efficient operations:
 
-Stacks are used to manage undo and redo operations.
+🔗 Linked List
 
-Undo Stack: To record and reverse user operations.
+Each line of text is stored as a node in a singly linked list.
 
-Redo Stack: To reapply undone operations when needed.
+Supports efficient insertion, deletion, and traversal.
+
+🧱 Stacks (Undo & Redo)
+
+Undo Stack: Stores actions (insert, delete, replace) with details like line number and text.
+
+Redo Stack: Stores operations that can be reapplied after being undone.
 ## Steps of Operation
 Insert text at a specified line number.
 
