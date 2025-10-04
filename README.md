@@ -33,7 +33,7 @@ Stacks are used to manage undo and redo operations.
 Undo Stack: To record and reverse user operations.
 
 Redo Stack: To reapply undone operations when needed.
-##Steps of Operation
+## Steps of Operation
 Insert text at a specified line number.
 
 Delete or replace a line as required.
